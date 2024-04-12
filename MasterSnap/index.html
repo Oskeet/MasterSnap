@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="snap.css">
+</head>
+<body>
+    <div id="board">
+        <div id="locations">
+            <div id="leftLocation" class="location">
+                <div class="power">
+                    <div id = "playerPowerLeft">0</div>
+                    <div id = "opponentPowerleft">0</div>
+                </div>
+            </div>
+
+            <div id="midLocation" class="location">
+                <div class="power">
+                    <div id = "playerPowerMid">0</div>
+                    <div id = "opponentPowerMid">0</div>
+                </div>
+            </div>
+
+            <div id="rightLocation" class="location">
+                <div class="power">
+                    <div id = "playerPowerRight">0</div>
+                    <div id = "opponentPowerRight">0</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="energy">1</div>
+
+        <div id="endTurn">End Turn</div>
+        
+        <div id="cubes">1</div>
+
+        <div id="playerIcon" class="icon">
+            <div class="name">MilkMan</div>
+            <div class="iconPic"><img src="images/milkMan(super).jpg" alt="milkMan"></div>
+        </div>
+
+        <div id="opponentIcon" class="icon">
+            <div class="name">Opponent</div>
+            <div class="iconPic"><img src="images/mochi2.jpg" alt="mochi"></div>
+        </div>
+
+        <div id="hand"></div>
+
+        <div class="cards"></div>
+    </div>
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="snap.js"></script>
+</body>
+</html>
